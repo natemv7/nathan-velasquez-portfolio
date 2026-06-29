@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import type { Project } from "@/lib/projects";
 import { FilmFrame } from "@/components/FilmFrame";
+import { LoopingPreviewVideo } from "@/components/LoopingPreviewVideo";
 import { VideoEmbed } from "@/components/VideoEmbed";
 
 type ProjectCardProps = {
@@ -31,13 +32,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           aria-label={`Watch ${title}`}
           className="group relative block aspect-video overflow-hidden bg-bone/[0.04]"
         >
-          <video
+          <LoopingPreviewVideo
             src={project.previewVideo}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="metadata"
             className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.015]"
           />
         </a>
