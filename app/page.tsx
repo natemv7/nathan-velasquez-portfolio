@@ -1,8 +1,16 @@
+import type { Metadata } from "next";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { ProjectCard } from "@/components/ProjectCard";
 import { VideoEmbed } from "@/components/VideoEmbed";
 import { featuredProjects, partners, reel } from "@/lib/projects";
+import { defaultDescription, defaultTitle, pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: defaultTitle,
+  description: defaultDescription,
+  path: "/",
+});
 
 const collaborators = [
   { name: "Nike", logo: "/media/clients/nike.png", invert: true },

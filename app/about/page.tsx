@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { profileMedia } from "@/lib/projects";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "About",
+  description:
+    "About Nathan Velasquez, a director and editor from Springfield, Massachusetts working across music videos, commercials, fashion visuals, documentary pieces, and VFX driven projects.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

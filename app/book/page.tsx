@@ -1,9 +1,18 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { ProjectInquiryForm } from "@/components/ProjectInquiryForm";
 import { profileMedia } from "@/lib/projects";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Book A Project",
+  description:
+    "Book Nathan Velasquez for music videos, commercials, edits, campaign films, reels, visual rollouts, and post production work.",
+  path: "/book",
+});
 
 export default function BookPage() {
   return (

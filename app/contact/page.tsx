@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { contact, partners, profileMedia } from "@/lib/projects";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Contact",
+  description:
+    "Contact Nathan Velasquez for directing, editing, commercials, music videos, fashion visuals, reels, visual rollouts, and post work.",
+  path: "/contact",
+});
 
 const contactLinks = [
   { label: "book a project", href: "/book" },
