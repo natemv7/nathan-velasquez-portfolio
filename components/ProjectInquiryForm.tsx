@@ -21,6 +21,7 @@ const deliverableOptions = ["Full film", "Social cutdowns", "Teaser / trailer", 
 type FormState = {
   name: string;
   email: string;
+  phone: string;
   title: string;
   type: string;
   timeline: string;
@@ -34,6 +35,7 @@ type FormState = {
 const initialState: FormState = {
   name: "",
   email: "",
+  phone: "",
   title: "",
   type: projectTypes[0],
   timeline: timelines[2],
@@ -53,6 +55,7 @@ export function ProjectInquiryForm() {
       [
         `Name: ${form.name}`,
         `Email: ${form.email}`,
+        `Phone: ${form.phone}`,
         `Project title: ${form.title}`,
         `Project type: ${form.type}`,
         `Timeline: ${form.timeline}`,
@@ -86,6 +89,11 @@ export function ProjectInquiryForm() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!form.email.trim() && !form.phone.trim()) {
+      alert("Drop either an email or phone number so Nathan can follow up.");
+      return;
+    }
+
     window.location.href = emailHref;
   };
 
@@ -110,10 +118,20 @@ export function ProjectInquiryForm() {
             onChange={(event) => updateField("email", event.target.value)}
             className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
             placeholder="you@email.com"
-            required
           />
         </label>
       </div>
+
+      <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
+        phone
+        <input
+          type="tel"
+          value={form.phone}
+          onChange={(event) => updateField("phone", event.target.value)}
+          className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
+          placeholder="phone number if that is easier"
+        />
+      </label>
 
       <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
         project title

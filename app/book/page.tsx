@@ -31,6 +31,7 @@ export default function BookPage() {
         <div className="grid min-w-0 gap-5">
           <div className="max-w-2xl text-[13px] leading-5 text-bone/68">
             <p>send the basics and nathan will follow up with availability, next steps, and the cleanest path forward.</p>
+            <p className="mt-2 text-bone/46">email or phone works. the inquiry still goes directly to nathan.</p>
           </div>
           <ProjectInquiryForm />
         </div>

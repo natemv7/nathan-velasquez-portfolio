@@ -46,6 +46,7 @@ export type Project = {
   sourceUrl?: string;
   finalVideoUrl?: string;
   videoEmbedUrl?: string;
+  previewGif?: string;
   additionalVideos?: ProjectVideo[];
   posterImage?: ProjectImage;
   gallery?: ProjectImage[];
@@ -87,6 +88,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/nikespec/`,
     finalVideoUrl: "https://vimeo.com/1198629176?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198629176"),
+    previewGif: "/media/projects/nike-run-for-it/preview.gif",
     posterImage: {
       src: "/media/projects/nike-run-for-it/yellow-shoes-run.jpg",
       alt: "Runner in yellow Nike shoes moving through Springfield.",
@@ -137,10 +139,11 @@ export const projects: Project[] = [
       { label: "Produced By", value: "World's End" },
     ],
     featured: true,
-    priority: 2,
+    priority: 4,
     sourceUrl: `${sourceBase}/ammxnike/`,
     finalVideoUrl: "https://vimeo.com/1198760213?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198760213"),
+    previewGif: "/media/projects/timing-is-everything/preview.gif",
     posterImage: {
       src: "/media/projects/timing-is-everything/blue-runner-portrait.jpg",
       alt: "Blue-toned portrait frame from Timing Is Everything.",
@@ -203,10 +206,11 @@ export const projects: Project[] = [
       { label: "Post-Production", value: "@omen.two & @worldsendprod" },
     ],
     featured: true,
-    priority: 3,
+    priority: 2,
     sourceUrl: `${sourceBase}/liltjaycantchange/`,
     finalVideoUrl: "https://vimeo.com/1198766682?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198766682"),
+    previewGif: "/media/projects/lil-tjay-cant-change/preview.gif",
     posterImage: {
       src: "/media/projects/lil-tjay-cant-change/lion-performance.jpg",
       alt: "Lil Tjay performance frame with a white lion in Can't Change.",
@@ -243,6 +247,52 @@ export const projects: Project[] = [
     palette: { a: "#e64a2e", b: "#77b7ff", c: "#1c1c1c" },
   },
   {
+    slug: "lil-baby-fu2x",
+    title: "FU2X",
+    client: "Lil Baby",
+    year: "2025",
+    role: "Editor",
+    type: "Music Video",
+    summary:
+      "A music video edited by Nathan Velasquez.",
+    brief:
+      "Shape the performance and visual rhythm into a focused final music video.",
+    build:
+      "Editorial pacing, structure, and performance selection carry the piece around the track's momentum.",
+    result:
+      "A tight music video edit built around energy, clarity, and replay value.",
+    credits: [{ label: "Editor", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 6,
+    finalVideoUrl: "https://www.youtube.com/watch?v=PDQM23AiARM",
+    previewGif: "/media/projects/lil-baby-fu2x/preview.gif",
+    posterStatus: "FU2X preview",
+    palette: { a: "#e64a2e", b: "#f4efe7", c: "#0b0b0b" },
+  },
+  {
+    slug: "lil-baby-nfl-touchdown",
+    title: "Touchdown",
+    client: "Lil Baby x NFL",
+    year: "2024",
+    role: "Editor",
+    type: "Music Video",
+    summary:
+      "A Lil Baby x NFL video edited by Nathan Velasquez.",
+    brief:
+      "Shape the performance, brand energy, and sports imagery into a focused final edit.",
+    build:
+      "Editorial rhythm, performance selection, and visual momentum carry the piece between artist and NFL worlds.",
+    result:
+      "A polished edit connecting music, sports, and campaign energy with a strong visual pace.",
+    credits: [{ label: "Editor", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 3,
+    finalVideoUrl: "https://www.youtube.com/watch?v=LjYgsSzCGZQ",
+    previewGif: "/media/projects/lil-baby-nfl-touchdown/preview.gif",
+    posterStatus: "Touchdown preview",
+    palette: { a: "#77b7ff", b: "#e64a2e", c: "#0b0b0b" },
+  },
+  {
     slug: "grounded",
     title: "Grounded",
     client: "Botany Scientifics",
@@ -264,10 +314,11 @@ export const projects: Project[] = [
       { label: "Post-House", value: "World's End" },
     ],
     featured: true,
-    priority: 4,
+    priority: 5,
     sourceUrl: "https://www.instagram.com/color____block/",
     finalVideoUrl: "https://vimeo.com/1198797697?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198797697"),
+    previewGif: "/media/projects/grounded/preview.gif",
     additionalVideos: [
       {
         title: "Grounded - Campaign Film 02",
@@ -340,10 +391,11 @@ export const projects: Project[] = [
       { label: "VFX Artist", value: "Nathan Velasquez" },
     ],
     featured: true,
-    priority: 5,
+    priority: 9,
     sourceUrl: `${sourceBase}/kaesavokay/`,
     finalVideoUrl: "https://vimeo.com/1198813761?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198813761"),
+    previewGif: "/media/projects/kaesav-okay/preview.gif",
     posterImage: {
       src: "/media/projects/kaesav-okay/wide-crosses-performance.jpg",
       alt: "Wide performance frame at Holy Land USA for Kaesav Okay.",
@@ -391,10 +443,11 @@ export const projects: Project[] = [
       "The cold environment, blowing snow, and stripped back locations turn a simple winter shoot into something raw and larger than life.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 6,
+    priority: 12,
     sourceUrl: `${sourceBase}/kaesavlongday/`,
     finalVideoUrl: "https://vimeo.com/1198819047?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198819047"),
+    previewGif: "/media/projects/kaesav-long-day/preview.gif",
     posterImage: {
       src: "/media/projects/kaesav-long-day/winter-wide-performance.jpg",
       alt: "Wide snowstorm performance frame from Kaesav Long Day.",
@@ -436,6 +489,29 @@ export const projects: Project[] = [
     palette: { a: "#77b7ff", b: "#f4efe7", c: "#111111" },
   },
   {
+    slug: "kaesav-new-day",
+    title: "New Day",
+    client: "Kaesav",
+    year: "2026",
+    role: "Directed, Shot, Edited",
+    type: "Music Video",
+    summary:
+      "A performance driven music video built around natural texture, atmosphere, and movement.",
+    brief:
+      "Create a focused visual with a cinematic outdoor feeling and enough rhythm to carry the track.",
+    build:
+      "Performance coverage, practical locations, and restrained pacing shape the piece around mood and movement.",
+    result:
+      "A clean, atmospheric music video that keeps the performance direct while giving the world room to breathe.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 16,
+    finalVideoUrl: "https://www.youtube.com/watch?v=lxpJY7yx3Rs",
+    previewGif: "/media/projects/kaesav-new-day/preview.gif",
+    posterStatus: "New Day preview",
+    palette: { a: "#77b7ff", b: "#325f4a", c: "#111111" },
+  },
+  {
     slug: "who-feels-it-knows-it",
     title: "Who Feels It Knows It",
     client: "Jamaica",
@@ -458,10 +534,11 @@ export const projects: Project[] = [
       { label: "Sound Design", value: "Mike Waddell" },
     ],
     featured: true,
-    priority: 7,
+    priority: 8,
     sourceUrl: `${sourceBase}/wfiki/`,
     finalVideoUrl: "https://vimeo.com/1198769255?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198769255"),
+    previewGif: "/media/projects/who-feels-it-knows-it/preview.gif",
     posterImage: {
       src: "/media/projects/who-feels-it-knows-it/bar-portrait.jpg",
       alt: "Smiling portrait inside a Jamaican bar from Who Feels It Knows It.",
@@ -514,10 +591,11 @@ export const projects: Project[] = [
       "A clean, elegant recap that carries the movement of the day without becoming a generic event video.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 8,
+    priority: 7,
     sourceUrl: `${sourceBase}/nybfw/`,
     finalVideoUrl: "https://vimeo.com/1198804611?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198804611"),
+    previewGif: "/media/projects/justin-haynes-nybfw/preview.gif",
     posterImage: {
       src: "/media/projects/justin-haynes-nybfw/red-veil-portrait.jpg",
       alt: "Red bridal fashion portrait from Justin Haynes New York Bridal Fashion Week.",
@@ -570,10 +648,11 @@ export const projects: Project[] = [
       "A high energy performance video driven by bold visuals, fast pacing, and clean rhythmic editing.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 9,
+    priority: 18,
     sourceUrl: `${sourceBase}/maajinstrolly/`,
     finalVideoUrl: "https://vimeo.com/1198814112?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198814112"),
+    previewGif: "/media/projects/maajins-trolly-boy/preview.gif",
     posterImage: {
       src: "/media/projects/maajins-trolly-boy/hands-title-wide.jpg",
       alt: "Wide performance title frame from Maajins Trolly Boy.",
@@ -595,6 +674,145 @@ export const projects: Project[] = [
     palette: { a: "#d4ff3f", b: "#e64a2e", c: "#0b0b0b" },
   },
   {
+    slug: "targeted",
+    title: "Commercial",
+    client: "Targeted",
+    year: "2026",
+    role: "Director, Cinematographer, Editor",
+    type: "Commercial / Spec",
+    summary:
+      "A commercial piece directed, shot, and edited by Nathan Velasquez.",
+    brief:
+      "Build a clean visual world around the product, location, and attitude of the brand.",
+    build:
+      "A focused production approach using practical space, wardrobe, movement, and editorial rhythm.",
+    result:
+      "A sharp commercial visual built to give the brand a larger, more cinematic presence.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 10,
+    finalVideoUrl: "https://vimeo.com/1205297300",
+    videoEmbedUrl: vimeoEmbed("1205297300"),
+    previewGif: "/media/projects/targeted/preview.gif",
+    posterStatus: "Targeted preview",
+    palette: { a: "#f4efe7", b: "#e64a2e", c: "#0b0b0b" },
+  },
+  {
+    slug: "xhulooo-get-near",
+    title: "Get Near",
+    client: "Xhulooo",
+    year: "2025",
+    role: "Director, Cinematographer, Editor",
+    type: "Music Video",
+    summary:
+      "A performance driven music video directed, shot, and edited by Nathan Velasquez.",
+    brief:
+      "Create a direct visual with movement, texture, and enough pace to carry the track.",
+    build:
+      "Practical locations, performance coverage, and editorial rhythm shape the piece around immediacy.",
+    result:
+      "A focused music video built around clean movement and raw visual energy.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 14,
+    finalVideoUrl: "https://www.youtube.com/watch?v=x7LfxXewwYY",
+    previewGif: "/media/projects/xhulooo-get-near/preview.gif",
+    posterStatus: "Get Near preview",
+    palette: { a: "#77b7ff", b: "#f4efe7", c: "#0b0b0b" },
+  },
+  {
+    slug: "osamason-jumpout-show-recap",
+    title: "Jumpout Show Recap",
+    client: "Osamason",
+    year: "2025",
+    role: "Director, Cinematographer, Editor, Color",
+    type: "Archive",
+    summary:
+      "A high energy show recap directed, shot, edited, and colored by Nathan Velasquez.",
+    brief:
+      "Capture the performance energy and atmosphere of the room in a compact recap format.",
+    build:
+      "Fast coverage, live movement, color, and rhythmic pacing shape the piece around the feeling of the show.",
+    result:
+      "A direct recap built to feel immediate, loud, and true to the energy of the night.",
+    credits: [{ label: "Directed, Shot, Edited, Color", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 11,
+    finalVideoUrl: "https://www.youtube.com/watch?v=zmgZSFheb8w",
+    previewGif: "/media/projects/osamason-jumpout-show-recap/preview.gif",
+    posterStatus: "Jumpout Show Recap preview",
+    palette: { a: "#e64a2e", b: "#77b7ff", c: "#0b0b0b" },
+  },
+  {
+    slug: "temberik-cream",
+    title: "C.R.E.A.M",
+    client: "Temberik",
+    year: "2025",
+    role: "Director, Cinematographer, Editor",
+    type: "Music Video",
+    summary:
+      "A music video directed, shot, and edited by Nathan Velasquez.",
+    brief:
+      "Build a focused visual around performance, atmosphere, and the tone of the track.",
+    build:
+      "Direct coverage, practical locations, and rhythmic editing shape the piece around a raw visual identity.",
+    result:
+      "A compact music video built to feel immediate and memorable.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 17,
+    finalVideoUrl: "https://www.youtube.com/watch?v=zjvGL2Mry_w",
+    previewGif: "/media/projects/temberik-cream/preview.gif",
+    posterStatus: "C.R.E.A.M preview",
+    palette: { a: "#e64a2e", b: "#f4efe7", c: "#0b0b0b" },
+  },
+  {
+    slug: "2hollis-show-recap",
+    title: "Show Recap",
+    client: "2hollis",
+    year: "2025",
+    role: "Director, Cinematographer, Editor",
+    type: "Archive",
+    summary:
+      "A live show recap directed, shot, and edited by Nathan Velasquez.",
+    brief:
+      "Capture the movement, crowd energy, and atmosphere of the performance in a compact recap.",
+    build:
+      "Live coverage, fast pacing, and performance-first editing shape the piece around the feeling of the room.",
+    result:
+      "A high energy recap built to feel immediate, immersive, and replayable.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 15,
+    finalVideoUrl: "https://www.youtube.com/watch?v=m6g9Ov2iH2M",
+    previewGif: "/media/projects/2hollis-show-recap/preview.gif",
+    posterStatus: "2hollis Show Recap preview",
+    palette: { a: "#77b7ff", b: "#f4efe7", c: "#0b0b0b" },
+  },
+  {
+    slug: "ken-carson-show-recap",
+    title: "Show Recap",
+    client: "Ken Carson",
+    year: "2025",
+    role: "Director, Cinematographer, Editor",
+    type: "Archive",
+    summary:
+      "A live show recap directed, shot, and edited by Nathan Velasquez.",
+    brief:
+      "Capture the performance, crowd momentum, and atmosphere of the show in a tight recap format.",
+    build:
+      "High contrast coverage, fast pacing, and performance-driven cuts shape the piece around live energy.",
+    result:
+      "A raw show recap built to feel immediate, loud, and connected to the room.",
+    credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
+    featured: true,
+    priority: 13,
+    finalVideoUrl: "https://www.youtube.com/watch?v=CUTKDyjF3aw",
+    previewGif: "/media/projects/ken-carson-show-recap/preview.gif",
+    posterStatus: "Ken Carson Show Recap preview",
+    palette: { a: "#f4efe7", b: "#77b7ff", c: "#0b0b0b" },
+  },
+  {
     slug: "kadin-johnny-gat",
     title: "Johnny Gat",
     client: "Kadin",
@@ -611,7 +829,7 @@ export const projects: Project[] = [
       "A direct, explosive music video that turns minimal locations into a harsher, more unstable visual world.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 10,
+    priority: 19,
     sourceUrl: `${sourceBase}/kadinjohnnygat/`,
     finalVideoUrl: "https://vimeo.com/1198794919?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198794919"),
