@@ -72,13 +72,13 @@ export const projects: Project[] = [
     type: "Spec Ad",
     location: "Springfield, Massachusetts",
     summary:
-      "Run For It is a spec commercial built around movement through Springfield. The film follows two runners across familiar city landmarks, using speed, texture, and practical locations to make the city feel larger and more cinematic.",
+      "A spec commercial built around speed, texture, and practical locations. Two runners move through Springfield with enough scale and pace to make the city feel cinematic.",
     brief:
-      "Make a spec spot feel larger than the resources behind it while keeping Springfield present in the frame.",
+      "Make a spec spot feel bigger than the resources behind it without losing the city in the frame.",
     build:
-      "Two runners move through familiar landmarks with fast coverage, practical locations, and a street-level sense of scale.",
+      "Fast coverage, low angles, city landmarks, and athletic detail shape the spot around motion and pressure.",
     result:
-      "A compact commercial piece that sells motion, atmosphere, and local texture without losing the rawness of the production.",
+      "A compact commercial piece with movement, atmosphere, and a clear street-level point of view.",
     credits: [
       { label: "Sound Design", value: "Kenneth Psalms & William Landry" },
       { label: "Color", value: "Michael Waddell" },
@@ -123,13 +123,13 @@ export const projects: Project[] = [
     role: "Editor",
     type: "Branded Short Film",
     summary:
-      "Timing Is Everything follows a chance connection unfolding across a night of movement, conversation, and quiet tension. The edit balances dialogue, voiceover, and visual rhythm to keep the story intimate while maintaining the energy of a branded social film.",
+      "A branded short built around a chance connection, quiet tension, and the rhythm of one night.",
     brief:
-      "Shape a branded short around a chance connection without losing the intimacy of the performances.",
+      "Shape the story around performance and timing while keeping the brand language natural.",
     build:
-      "Dialogue, voiceover, and visual rhythm carry the movement across one night while keeping the quiet tension intact.",
+      "Dialogue, voiceover, and visual rhythm carry the film without flattening the intimacy.",
     result:
-      "An intimate branded social film with a clear emotional thread and enough momentum for social delivery.",
+      "A clean branded short with emotional pace, restraint, and enough movement for social delivery.",
     credits: [
       { label: "Editor", value: "Nate Velasquez" },
       { label: "Co-Editor", value: "Ethan Santana" },
@@ -188,13 +188,13 @@ export const projects: Project[] = [
     role: "VFX Artist",
     type: "Music Video",
     summary:
-      "Can't Change expands the scale of the original footage through environments and visual effects. My role focused on building believable animals, aerial elements, and larger cinematic moments while keeping the effects connected to the lighting, movement, and tone of the live action footage.",
+      "A music video expanded through visual effects, animal work, aerial elements, and larger cinematic moments.",
     brief:
-      "Expand the live action footage into larger cinematic moments without breaking the lighting, movement, or tone.",
+      "Make the world feel bigger without breaking the tone of the live action footage.",
     build:
-      "Generated animals, aerial elements, and environment extensions were built to feel connected to the captured footage.",
+      "Animals, aerial moments, and environment extensions were matched to the lighting, movement, and mood of the footage.",
     result:
-      "The finished music video gains a bigger visual scale while keeping the VFX tied to the live action world.",
+      "A bigger visual scale that still feels tied to the performance world.",
     credits: [
       { label: "Directed", value: "@jb.tai" },
       { label: "Co-Edited", value: "@iheartxantana from @omen.two" },
@@ -255,13 +255,13 @@ export const projects: Project[] = [
     role: "Editor",
     type: "Music Video",
     summary:
-      "A music video edited by Nathan Velasquez.",
+      "A major artist music video edit built around performance, graphics, and direct momentum.",
     brief:
-      "Shape the performance and visual rhythm into a focused final music video.",
+      "Turn the footage and graphic language into a tight, replayable final edit.",
     build:
-      "Editorial pacing, structure, and performance selection carry the piece around the track's momentum.",
+      "Performance selection, pacing, and visual punctuation keep the piece moving with the track.",
     result:
-      "A tight music video edit built around energy, clarity, and replay value.",
+      "A sharp edit with clean energy, quick recognition, and major-artist polish.",
     credits: [{ label: "Editor", value: "Nathan Velasquez" }],
     featured: true,
     priority: 6,
@@ -278,13 +278,13 @@ export const projects: Project[] = [
     role: "Editor",
     type: "Music Video",
     summary:
-      "A Lil Baby x NFL video edited by Nathan Velasquez.",
+      "A Lil Baby x NFL edit connecting artist performance with sports campaign energy.",
     brief:
-      "Shape the performance, brand energy, and sports imagery into a focused final edit.",
+      "Bring the artist and NFL worlds together without making either side feel secondary.",
     build:
-      "Editorial rhythm, performance selection, and visual momentum carry the piece between artist and NFL worlds.",
+      "Performance, team imagery, and campaign moments are cut for impact and pace.",
     result:
-      "A polished edit connecting music, sports, and campaign energy with a strong visual pace.",
+      "A polished music and sports piece with clear brand scale and editorial momentum.",
     credits: [{ label: "Editor", value: "Nathan Velasquez" }],
     featured: true,
     priority: 4,
@@ -301,13 +301,13 @@ export const projects: Project[] = [
     role: "Editor",
     type: "Music Video",
     summary:
-      "A music video edited by Nathan Velasquez.",
+      "A Meek Mill x G Herbo music video edit built around mood, pressure, and performance.",
     brief:
-      "Shape the performance, tone, and visual rhythm into a focused final music video.",
+      "Cut the performance and atmosphere into a direct final piece with weight.",
     build:
-      "Editorial pacing, performance selection, and visual momentum carry the piece around the track's weight.",
+      "Performance selection, pacing, and controlled momentum keep the edit focused on the record.",
     result:
-      "A tight music video edit built around mood, clarity, and replay value.",
+      "A tight edit with major-artist presence, tension, and replay value.",
     credits: [{ label: "Editor", value: "Nathan Velasquez" }],
     featured: true,
     priority: 5,
@@ -324,13 +324,13 @@ export const projects: Project[] = [
     role: "Editor",
     type: "Commercial Campaign",
     summary:
-      "A four part social campaign for Grounded by Botany Scientifics, built around calm focus, natural energy, and reconnecting with yourself.",
+      "A commercial campaign for Grounded by Botany Scientifics, built around calm focus, natural energy, and daily pressure.",
     brief:
-      "Build two 60 second hero edits, one centered around a male subject and one around a female subject, while keeping both inside the same brand language.",
+      "Build multiple hero edits and cutdowns that share one brand language while giving each subject a different rhythm.",
     build:
-      "The male cut leans reflective and routine based. The female cut feels lighter and more fluid, focusing on movement, texture, warmth, and moments of clarity.",
+      "The edits move between routine, pressure, release, product moments, and lifestyle texture.",
     result:
-      "Both hero edits were adapted into 15 second cutdowns that reduce the story to the strongest product, lifestyle, and emotional beats for social delivery.",
+      "A set of social films and cutdowns designed to make the product feel personal, useful, and easy to remember.",
     credits: [
       { label: "Editor", value: "Nate Velasquez" },
       { label: "Sound Design & Mix", value: "Kenneth Psalms & William Landry" },
@@ -403,13 +403,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor, VFX Artist",
     type: "Music Video",
     summary:
-      "A surreal performance video filmed inside the abandoned Holy Land USA property. The location already carried a strange, almost apocalyptic feeling, so the visual pushed that world further with fire, animals, and environmental effects.",
+      "A surreal performance video built inside the abandoned Holy Land USA property, using the location as a strange, apocalyptic base.",
     brief:
-      "Use an already strange location as the base for a world that feels unstable, cinematic, and bigger than what was captured in camera.",
+      "Push a practical location into a larger world without losing the raw feeling of the shoot.",
     build:
-      "Raw performance footage is balanced with unnatural imagery, fire, animals, and environmental effects to keep the setting feeling unstable.",
+      "Performance footage, fire, animals, and environmental effects keep the setting unstable and cinematic.",
     result:
-      "A heightened music video that turns a practical abandoned location into a larger performance world.",
+      "A heightened music video that makes a found location feel dangerous, strange, and fully built.",
     credits: [
       { label: "Directed, Shot, Edited", value: "Nathan Velasquez" },
       { label: "VFX Artist", value: "Nathan Velasquez" },
@@ -458,13 +458,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A performance driven music video filmed during a heavy snowstorm, using the weather as the main visual force.",
+      "A snowstorm performance video where the weather becomes the main production value.",
     brief:
-      "Turn a stripped back winter shoot into something cinematic without leaning on heavy production.",
+      "Make a stripped-back winter shoot feel cinematic, aggressive, and bigger than the setup.",
     build:
-      "The edit leans into the storm with aggressive pacing, strong contrast, isolated locations, and intense performance coverage.",
+      "Hard contrast, blowing snow, isolated locations, and tight performance coverage drive the edit.",
     result:
-      "The cold environment, blowing snow, and stripped back locations turn a simple winter shoot into something raw and larger than life.",
+      "A raw winter visual with pressure, atmosphere, and enough scale to make the storm feel designed.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 13,
@@ -520,13 +520,13 @@ export const projects: Project[] = [
     role: "Directed, Shot, Edited",
     type: "Music Video",
     summary:
-      "A performance driven music video built around natural texture, atmosphere, and movement.",
+      "A quiet outdoor performance visual built around natural texture, atmosphere, and movement.",
     brief:
-      "Create a focused visual with a cinematic outdoor feeling and enough rhythm to carry the track.",
+      "Keep the world simple, focused, and cinematic without overproducing the track.",
     build:
-      "Performance coverage, practical locations, and restrained pacing shape the piece around mood and movement.",
+      "Practical locations, restrained pacing, and performance coverage give the piece space to breathe.",
     result:
-      "A clean, atmospheric music video that keeps the performance direct while giving the world room to breathe.",
+      "A clean music video with direct performance energy and a softer visual atmosphere.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 17,
@@ -544,13 +544,13 @@ export const projects: Project[] = [
     type: "Documentary Short",
     location: "Jamaica",
     summary:
-      "Who Feels It Knows It is a short documentary built around intimate portraits, environmental detail, and the rhythm of everyday life in Jamaica. My edit focused on preserving silence, natural sound, and emotional space so the people and locations could carry the story without overexplaining it.",
+      "A short documentary shaped around portraits, natural sound, and the emotional rhythm of everyday life in Jamaica.",
     brief:
-      "Build a short documentary around intimate portraits and everyday environmental detail in Jamaica.",
+      "Let the people and locations carry the film without forcing explanation.",
     build:
-      "The edit preserves silence, natural sound, and emotional space so the people and locations can carry the story.",
+      "Silence, environmental detail, and patient pacing hold space for the story to land.",
     result:
-      "A patient documentary short that lets rhythm, place, and portraiture communicate without overexplaining.",
+      "A restrained documentary short where rhythm, place, and portraiture do the talking.",
     credits: [
       { label: "Editor", value: "Nate Velasquez" },
       { label: "Director", value: "Kristen White" },
@@ -606,16 +606,16 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Fashion / Campaign",
     summary:
-      "A full day fashion recap documenting Justin Haynes during New York Bridal Fashion Week, moving from preparation and backstage details to the runway and final presentation.",
+      "A polished fashion recap following Justin Haynes through New York Bridal Fashion Week, from preparation to runway.",
     brief:
-      "Document the day with enough polish for fashion while preserving movement, atmosphere, and craft.",
+      "Make the day feel elegant and fast without flattening the craft or atmosphere.",
     build:
-      "The edit was built to feel polished, elegant, and fast moving while still giving space to the craftsmanship, styling, and atmosphere surrounding the collection.",
+      "Backstage detail, runway movement, styling, and pacing give the recap a complete fashion-world arc.",
     result:
-      "A clean, elegant recap that carries the movement of the day without becoming a generic event video.",
+      "A clean fashion film that feels more intentional than a standard event recap.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 8,
+    priority: 10,
     sourceUrl: `${sourceBase}/nybfw/`,
     finalVideoUrl: "https://vimeo.com/1198804611?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198804611"),
@@ -663,13 +663,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A performance driven music video built around speed, movement, and attitude, with over 70,000 views on YouTube.",
+      "A fast performance video built around speed, movement, and attitude, with over 70,000 views on YouTube.",
     brief:
-      "Keep the visuals direct, immediate, and matched to the speed and attitude of the track.",
+      "Keep the visual direct and rhythmic enough to match the track without overcomplicating it.",
     build:
-      "Bold framing and fast editorial momentum carry the piece while keeping the performance raw and rhythmic.",
+      "Bold framing, fast cuts, and close performance energy keep the piece raw and immediate.",
     result:
-      "A high energy performance video driven by bold visuals, fast pacing, and clean rhythmic editing.",
+      "A high-energy music video built for replay value and quick recognition.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 19,
@@ -705,16 +705,16 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Commercial Campaign",
     summary:
-      "A commercial piece directed, shot, and edited by Nathan Velasquez.",
+      "A commercial film for Targeted built around product, attitude, and a controlled visual world.",
     brief:
-      "Build a clean visual world around the product, location, and attitude of the brand.",
+      "Give the brand a sharper presence through practical production and focused image-making.",
     build:
-      "A focused production approach using practical space, wardrobe, movement, and editorial rhythm.",
+      "Practical space, wardrobe, movement, and editorial rhythm shape the campaign into a clear visual identity.",
     result:
-      "A sharp commercial visual built to give the brand a larger, more cinematic presence.",
+      "A compact commercial piece that makes the brand feel intentional, current, and cinematic.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 10,
+    priority: 8,
     finalVideoUrl: "https://vimeo.com/1205297300",
     videoEmbedUrl: vimeoEmbed("1205297300"),
     previewVideo: "/media/projects/targeted/preview.mp4",
@@ -729,13 +729,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A performance driven music video directed, shot, and edited by Nathan Velasquez.",
+      "A direct performance music video built around movement, water, and city texture.",
     brief:
-      "Create a direct visual with movement, texture, and enough pace to carry the track.",
+      "Create a visual with enough motion and atmosphere to carry the track without losing immediacy.",
     build:
-      "Practical locations, performance coverage, and editorial rhythm shape the piece around immediacy.",
+      "Location texture, performance coverage, and rhythmic cutting keep the piece alive.",
     result:
-      "A focused music video built around clean movement and raw visual energy.",
+      "A focused music video with clean movement, raw energy, and a strong sense of place.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 15,
@@ -752,13 +752,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor, Color",
     type: "Archive",
     summary:
-      "A high energy show recap directed, shot, edited, and colored by Nathan Velasquez.",
+      "A high-energy Osamason show recap built to feel like the room, not a recap afterthought.",
     brief:
-      "Capture the performance energy and atmosphere of the room in a compact recap format.",
+      "Capture the performance energy, crowd pressure, and atmosphere in a compact format.",
     build:
-      "Fast coverage, live movement, color, and rhythmic pacing shape the piece around the feeling of the show.",
+      "Live movement, fast coverage, color, and hard pacing shape the piece around the feeling of the night.",
     result:
-      "A direct recap built to feel immediate, loud, and true to the energy of the night.",
+      "A loud, immediate recap with the kind of pace that makes the show feel active again.",
     credits: [{ label: "Directed, Shot, Edited, Color", value: "Nathan Velasquez" }],
     featured: true,
     priority: 12,
@@ -775,13 +775,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A music video directed, shot, and edited by Nathan Velasquez.",
+      "A night-driven music video built around stark titles, negative space, and raw atmosphere.",
     brief:
-      "Build a focused visual around performance, atmosphere, and the tone of the track.",
+      "Give the track a simple but memorable world without overloading the visual.",
     build:
-      "Direct coverage, practical locations, and rhythmic editing shape the piece around a raw visual identity.",
+      "Practical locations, direct coverage, title work, and rhythmic editing shape the piece around tension.",
     result:
-      "A compact music video built to feel immediate and memorable.",
+      "A compact music video with a clear graphic identity and dark, restrained energy.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 18,
@@ -798,13 +798,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Archive",
     summary:
-      "A live show recap directed, shot, and edited by Nathan Velasquez.",
+      "A 2hollis show recap built around crowd movement, stage pressure, and live chaos.",
     brief:
-      "Capture the movement, crowd energy, and atmosphere of the performance in a compact recap.",
+      "Make the recap feel as physical and immediate as the performance.",
     build:
-      "Live coverage, fast pacing, and performance-first editing shape the piece around the feeling of the room.",
+      "Crowd coverage, fast pacing, and performance-first editing shape the piece around the room's energy.",
     result:
-      "A high energy recap built to feel immediate, immersive, and replayable.",
+      "A live recap with momentum, scale, and enough texture to feel replayable.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 16,
@@ -821,13 +821,13 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Archive",
     summary:
-      "A live show recap directed, shot, and edited by Nathan Velasquez.",
+      "A Ken Carson show recap built around high contrast performance, crowd energy, and speed.",
     brief:
-      "Capture the performance, crowd momentum, and atmosphere of the show in a tight recap format.",
+      "Turn the performance and audience energy into a tight, punchy recap.",
     build:
-      "High contrast coverage, fast pacing, and performance-driven cuts shape the piece around live energy.",
+      "High-contrast footage, quick pacing, and performance-driven cuts keep the recap moving.",
     result:
-      "A raw show recap built to feel immediate, loud, and connected to the room.",
+      "A raw live piece that feels loud, direct, and connected to the room.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
     priority: 14,
@@ -844,11 +844,11 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A gritty performance driven visual built around isolation, pressure, and explosive energy. Shot across stark outdoor locations with aggressive handheld movement, distorted perspectives, and fire effects to push the world beyond reality.",
+      "A gritty performance video built around isolation, pressure, distorted perspectives, and explosive energy.",
     brief:
-      "Build a performance visual around isolation, pressure, and explosive energy.",
+      "Make stark outdoor locations feel unstable, aggressive, and larger than reality.",
     build:
-      "Stark outdoor locations, aggressive handheld movement, distorted perspectives, and fire effects push the world beyond reality.",
+      "Aggressive handheld movement, stark locations, distorted frames, and fire effects push the world past realism.",
     result:
       "A direct, explosive music video that turns minimal locations into a harsher, more unstable visual world.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],

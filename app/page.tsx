@@ -38,15 +38,15 @@ export default function Home() {
 
         <div className="grid max-w-6xl gap-6">
           <h1 className="max-w-5xl text-[clamp(42px,8vw,118px)] font-medium lowercase leading-[0.9] tracking-normal text-bone">
-            cinematic worlds for artists, brands, and culture.
+            directed with rhythm. built to cut through.
           </h1>
           <div className="grid gap-5 text-[13px] leading-5 text-bone/68 md:grid-cols-[minmax(0,0.62fr)_minmax(0,0.38fr)]">
             <p>
-              Nathan Velasquez directs and edits music videos, commercials, branded films, fashion visuals, and
-              post-driven campaigns with an editor&apos;s sense of rhythm.
+              Nathan Velasquez directs and edits music videos, commercials, fashion films, documentary pieces, and
+              visual rollouts for artists and brands that need a world, not just content.
             </p>
             <p className="text-bone/48">
-              Built for work that needs a hook, a world, and a reason to replay.
+              Practical locations. sharp post. strong visual ideas built to feel bigger than the budget.
             </p>
           </div>
           <div className="flex flex-wrap gap-x-5 gap-y-2 text-[11px] lowercase leading-4 text-bone/58">
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="mb-4 grid gap-x-4 gap-y-2 border-t border-bone/12 pt-4 md:grid-cols-[0.32fr_1fr]">
           <p className="text-[11px] lowercase leading-4 text-bone/54">selected work</p>
           <p className="max-w-2xl text-[11px] lowercase leading-4 text-bone/46">
-            commercial campaigns / music videos / branded shorts / fashion / documentary / post
+            films, campaigns, edits, and visual worlds selected for range, rhythm, and scale
           </p>
         </div>
 
@@ -95,21 +95,21 @@ export default function Home() {
         <div className="grid gap-x-4 gap-y-4 border-t border-bone/12 pt-4 md:grid-cols-[0.32fr_1fr]">
           <p className="text-[11px] lowercase leading-4 text-bone/54">clients / collaborators</p>
           <div className="grid gap-x-4 gap-y-2 text-[11px] lowercase leading-4 text-bone/64 sm:grid-cols-2 lg:grid-cols-4">
-          {collaborators.map((credit) => (
-            credit.href ? (
-              <a
-                key={credit.name}
-                href={credit.href}
-                target="_blank"
-                rel="noreferrer"
+            {collaborators.map((credit) =>
+              credit.href ? (
+                <a
+                  key={credit.name}
+                  href={credit.href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="transition-colors hover:text-bone"
-              >
+                >
                   {credit.name.toLowerCase()}
-              </a>
-            ) : (
+                </a>
+              ) : (
                 <span key={credit.name}>{credit.name.toLowerCase()}</span>
-            )
-          ))}
+              )
+            )}
           </div>
         </div>
       </section>
@@ -122,11 +122,11 @@ export default function Home() {
               href="/book"
               className="text-[clamp(34px,6vw,96px)] font-medium lowercase leading-[0.9] tracking-normal text-bone transition-colors hover:text-bone/72"
             >
-              book your project today.
+              build the next visual.
             </a>
             <p className="max-w-xl text-[13px] leading-5 text-bone/54">
-              Send the idea, timeline, budget range, and what needs to happen. Nathan will follow up with the cleanest
-              way to build it.
+              Send the idea, deadline, budget range, and what needs to happen. Nathan will come back with a clear path
+              to make it sharp.
             </p>
           </div>
         </div>

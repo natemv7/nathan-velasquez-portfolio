@@ -98,7 +98,7 @@ export function ProjectInquiryForm() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (!form.email.trim() && !form.phone.trim()) {
-      alert("Drop either an email or phone number so Nathan can follow up.");
+      alert("Drop an email or phone number so Nathan can follow up.");
       return;
     }
 
@@ -114,7 +114,7 @@ export function ProjectInquiryForm() {
             value={form.name}
             onChange={(event) => updateField("name", event.target.value)}
             className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-            placeholder="name"
+            placeholder="your name"
             required
           />
         </label>
@@ -137,20 +137,20 @@ export function ProjectInquiryForm() {
           value={form.phone}
           onChange={(event) => updateField("phone", event.target.value)}
           className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="phone number if that is easier"
+          placeholder="phone if that is easier"
         />
       </label>
 
       <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
         project title
-          <input
-            value={form.title}
-            onChange={(event) => updateField("title", event.target.value)}
-            className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-            placeholder="artist, brand, campaign, or working title"
-            required
-          />
-        </label>
+        <input
+          value={form.title}
+          onChange={(event) => updateField("title", event.target.value)}
+          className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
+          placeholder="artist, brand, campaign, or working title"
+          required
+        />
+      </label>
 
       <div className="grid gap-4 md:grid-cols-3">
         <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
@@ -227,7 +227,7 @@ export function ProjectInquiryForm() {
           value={form.references}
           onChange={(event) => updateField("references", event.target.value)}
           className="min-h-20 w-full resize-y border border-bone/12 bg-transparent p-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="songs, scripts, decks, moodboards, vimeo links, youtube links, or references"
+          placeholder="song, script, deck, treatment, moodboard, youtube, vimeo, or references"
         />
       </label>
 
@@ -237,17 +237,14 @@ export function ProjectInquiryForm() {
           value={form.notes}
           onChange={(event) => updateField("notes", event.target.value)}
           className="min-h-28 w-full resize-y border border-bone/12 bg-transparent p-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="tell me the goal, vibe, deadline pressure, must-haves, what is already locked, and what needs help."
+          placeholder="the goal, the feeling, what is locked, what needs help, and what cannot miss."
           required
         />
       </label>
 
       <div className="flex flex-wrap gap-4 pt-1 text-[11px] lowercase leading-4">
-        <button
-          type="submit"
-          className="text-bone/72 transition-colors hover:text-bone"
-        >
-          send project inquiry
+        <button type="submit" className="text-bone/72 transition-colors hover:text-bone">
+          send the project
         </button>
         <a
           href={contact.instagram}

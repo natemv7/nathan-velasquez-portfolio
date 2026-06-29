@@ -4,7 +4,7 @@ export const siteUrl = "https://natevelasquez.net";
 export const siteName = "Nathan Velasquez";
 export const defaultTitle = "Nathan Velasquez | Director & Editor";
 export const defaultDescription =
-  "Nathan Velasquez is a director and editor building cinematic music videos, commercials, branded films, fashion visuals, documentary pieces, and post-driven campaigns.";
+  "Nathan Velasquez is a director and editor making cinematic music videos, commercials, fashion films, documentary pieces, and post-driven visual rollouts.";
 export const ogImage = "/media/seo/og-image.jpg";
 
 export function pageMetadata({

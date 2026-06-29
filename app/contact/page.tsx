@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Contact",
   description:
-    "Contact Nathan Velasquez for directing, editing, commercials, music videos, fashion visuals, reels, visual rollouts, and post work.",
+    "Contact Nathan Velasquez for directing, editing, music videos, commercials, fashion films, reels, visual rollouts, and post work.",
   path: "/contact",
 });
 
@@ -35,15 +35,16 @@ export default function ContactPage() {
 
         <div className="grid max-w-6xl content-start gap-10">
           <h1 className="max-w-5xl text-[clamp(42px,8vw,118px)] font-medium lowercase leading-[0.9] tracking-normal text-bone">
-            bring the idea. build the world.
+            bring the idea. make it hit.
           </h1>
 
           <div className="grid gap-5 text-[13px] leading-5 text-bone/68 md:grid-cols-2">
             <p>
-              For music videos, commercials, edits, reels, campaign films, fashion visuals, and post-heavy rollouts.
+              For music videos, commercials, edits, reels, campaign films, fashion work, and post-heavy rollouts.
             </p>
             <p className="text-bone/48">
-              Send the basics. Nathan will follow up with availability, next steps, and the cleanest way to make it.
+              Send the idea, the timeline, and the pressure points. Nathan will follow up with availability and the
+              cleanest way to make it real.
             </p>
           </div>
 

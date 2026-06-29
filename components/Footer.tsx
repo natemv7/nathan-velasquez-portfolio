@@ -12,15 +12,15 @@ export function Footer() {
           <a href={`mailto:${contact.email}`} className="transition-colors hover:text-bone">
             email
           </a>
-            <a href={contact.instagram} target="_blank" rel="noreferrer" className="hover:text-bone">
+          <a href={contact.instagram} target="_blank" rel="noreferrer" className="hover:text-bone">
             instagram
-            </a>
-            <a href={contact.linkedin} target="_blank" rel="noreferrer" className="hover:text-bone">
+          </a>
+          <a href={contact.linkedin} target="_blank" rel="noreferrer" className="hover:text-bone">
             linkedin
-            </a>
-            <a href={partners.postHouseUrl} target="_blank" rel="noreferrer" className="hover:text-bone">
+          </a>
+          <a href={partners.postHouseUrl} target="_blank" rel="noreferrer" className="hover:text-bone">
             {partners.postHouseName.toLowerCase()}
-            </a>
+          </a>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "About",
   description:
-    "About Nathan Velasquez, a director and editor building cinematic music videos, commercials, fashion visuals, documentary pieces, and visual worlds through OASIS.",
+    "About Nathan Velasquez, a director and editor making cinematic music videos, commercials, fashion films, documentary pieces, and visual worlds through OASIS.",
   path: "/about",
 });
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
 
         <div className="grid gap-8">
           <h1 className="max-w-5xl text-[clamp(42px,8vw,118px)] font-medium lowercase leading-[0.9] tracking-normal text-bone">
-            built from the edit out.
+            the edit is the foundation.
           </h1>
 
           <div className="relative aspect-[1.02/1] overflow-hidden bg-bone/[0.03]">
@@ -47,25 +47,24 @@ export default function AboutPage() {
             <div className="grid max-w-3xl content-start gap-5 text-[13px] leading-5 text-bone/68">
               <p>
                 Nathan Velasquez is a director and editor from Springfield, Massachusetts, with over 10 years of editing
-                experience across music videos, commercials, branded films, fashion visuals, documentary pieces, and
-                VFX-driven work.
+                experience across music videos, commercials, fashion films, documentary pieces, and VFX-driven work.
               </p>
               <p>
-                He came up through the edit first, so rhythm is baked into the way he directs. Every shot has to cut.
-                Every scene needs pressure, movement, and a clear visual world.
+                He came up through the edit first. That shapes the way he directs: every setup needs rhythm, every shot
+                needs a reason, and every scene has to move.
               </p>
               <p>
-                His work has reached brands, labels, artists, and culture spaces across music, sports, and fashion, with
-                credits connected to Nike, Rolex, NFL, Interscope Records, Motown Records, World&apos;s End, and major
-                artists and labels.
+                His work moves through brands, labels, artists, and culture spaces across music, sports, and fashion,
+                with credits connected to Nike, Rolex, NFL, Interscope Records, Motown Records, World&apos;s End, and
+                major artists and labels.
               </p>
               <p>
-                OASIS is the world he builds for himself: clothing and visuals shaped around pressure, ambition,
-                isolation, movement, and making limited resources feel bigger than where they came from.
+                OASIS is the world he builds for himself: clothing and visuals shaped by pressure, ambition, isolation,
+                movement, and the instinct to make limited resources feel larger than they are.
               </p>
               <p>
-                That same mindset carries into client work. The goal is not just clean content. It is a hook, a feeling,
-                a visual identity, and a reason for people to replay it.
+                The same standard carries into client work. Not just clean footage. A hook. A feeling. A visual identity
+                that makes the artist, brand, or idea feel impossible to ignore.
               </p>
 
               <div className="grid gap-2 border-t border-bone/12 pt-5 text-[11px] lowercase leading-4 text-bone/54 sm:grid-cols-2">
@@ -77,7 +76,7 @@ export default function AboutPage() {
                 href="/book"
                 className="text-[11px] lowercase leading-4 text-bone/72 transition-colors hover:text-bone"
               >
-                book your project today
+                start a project
               </Link>
             </div>
           </div>
