@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
-import { contact, partners, profileMedia } from "@/lib/projects";
+import { contact, partners } from "@/lib/projects";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -26,7 +25,7 @@ export default function ContactPage() {
     <main className="min-h-screen bg-ink text-bone">
       <Navigation />
 
-      <section className="mx-auto grid max-w-[1600px] gap-x-4 gap-y-6 px-4 pb-16 pt-28 sm:px-6 md:grid-cols-[0.32fr_0.42fr_1fr] lg:px-8">
+      <section className="mx-auto grid max-w-[1600px] gap-x-4 gap-y-8 px-4 pb-16 pt-28 sm:px-6 md:grid-cols-[0.32fr_1fr] lg:px-8">
         <div className="text-[11px] lowercase leading-4 text-bone/54">
           <p>contact</p>
           <Link href="/#selected-work" className="transition-colors hover:text-bone">
@@ -34,20 +33,18 @@ export default function ContactPage() {
           </Link>
         </div>
 
-        <div className="relative aspect-[4/5] min-h-0 overflow-hidden bg-bone/[0.03]">
-          <Image
-            src={profileMedia.portrait}
-            alt="Nathan Velasquez seated with camera equipment."
-            fill
-            sizes="(min-width: 768px) 28vw, 100vw"
-            className="object-cover object-[50%_14%]"
-          />
-        </div>
+        <div className="grid max-w-6xl content-start gap-10">
+          <h1 className="max-w-5xl text-[clamp(42px,8vw,118px)] font-medium lowercase leading-[0.9] tracking-normal text-bone">
+            bring the idea. build the world.
+          </h1>
 
-        <div className="grid max-w-3xl content-start gap-8">
-          <div className="grid gap-3 text-[13px] leading-5 text-bone/68">
-            <p>for videos, edits, campaigns, reels, visual rollouts, and post work.</p>
-            <p className="text-bone/46">send the basics and nathan will follow up with availability and next steps.</p>
+          <div className="grid gap-5 text-[13px] leading-5 text-bone/68 md:grid-cols-2">
+            <p>
+              For music videos, commercials, edits, reels, campaign films, fashion visuals, and post-heavy rollouts.
+            </p>
+            <p className="text-bone/48">
+              Send the basics. Nathan will follow up with availability, next steps, and the cleanest way to make it.
+            </p>
           </div>
 
           <div className="grid gap-y-3 text-[clamp(30px,5vw,82px)] font-medium lowercase leading-[0.95] text-bone">

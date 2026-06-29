@@ -12,6 +12,7 @@ type ProjectCardProps = {
 
 export function ProjectCard({ project, index }: ProjectCardProps) {
   const title = `${project.client}: ${project.title}`;
+  const projectMeta = [project.role, project.year === "TBD" ? null : project.year].filter(Boolean).join(" / ");
 
   return (
     <motion.article
@@ -61,11 +62,28 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         <FilmFrame project={project} label={project.title} className="aspect-video" />
       )}
 
-      <p className="break-words text-[11px] lowercase leading-4 text-bone/56">
-        {project.client.toLowerCase()} / {project.title.toLowerCase()}
-        <br />
-        {project.role.toLowerCase()}
-      </p>
+      {project.finalVideoUrl ? (
+        <a
+          href={project.finalVideoUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="break-words text-[11px] lowercase leading-4 text-bone/56 transition-colors hover:text-bone"
+        >
+          <span className="text-bone/78">
+            {project.client.toLowerCase()} / {project.title.toLowerCase()}
+          </span>
+          <br />
+          {projectMeta.toLowerCase()}
+        </a>
+      ) : (
+        <p className="break-words text-[11px] lowercase leading-4 text-bone/56">
+          <span className="text-bone/78">
+            {project.client.toLowerCase()} / {project.title.toLowerCase()}
+          </span>
+          <br />
+          {projectMeta.toLowerCase()}
+        </p>
+      )}
     </motion.article>
   );
 }

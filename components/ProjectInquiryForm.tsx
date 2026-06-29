@@ -5,18 +5,26 @@ import { contact } from "@/lib/projects";
 
 const projectTypes = [
   "Music Video",
-  "Commercial",
-  "Campaign Film",
-  "Fashion / Runway",
+  "Commercial / Brand Film",
+  "Campaign Rollout",
+  "Fashion Visual",
   "Documentary",
-  "Editing / Post",
-  "VFX",
+  "Editing / Trailer / Reel",
+  "Show Recap",
+  "VFX / Post",
   "Other",
 ];
 
 const timelines = ["ASAP", "1-2 weeks", "3-4 weeks", "1-2 months", "Flexible / planning ahead"];
 const budgets = ["Under $2.5k", "$2.5k-$5k", "$5k-$10k", "$10k-$20k", "$20k+", "Not sure yet"];
-const deliverableOptions = ["Full film", "Social cutdowns", "Teaser / trailer", "VFX", "Post supervision"];
+const deliverableOptions = [
+  "Full film",
+  "Social cutdowns",
+  "Teaser / trailer",
+  "Edit only",
+  "Production",
+  "Post supervision",
+];
 
 type FormState = {
   name: string;
@@ -135,14 +143,14 @@ export function ProjectInquiryForm() {
 
       <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
         project title
-        <input
-          value={form.title}
-          onChange={(event) => updateField("title", event.target.value)}
-          className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="artist, brand, or working title"
-          required
-        />
-      </label>
+          <input
+            value={form.title}
+            onChange={(event) => updateField("title", event.target.value)}
+            className="w-full border-b border-bone/16 bg-transparent px-0 py-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
+            placeholder="artist, brand, campaign, or working title"
+            required
+          />
+        </label>
 
       <div className="grid gap-4 md:grid-cols-3">
         <label className="grid gap-1 text-[11px] lowercase leading-4 text-bone/48">
@@ -219,7 +227,7 @@ export function ProjectInquiryForm() {
           value={form.references}
           onChange={(event) => updateField("references", event.target.value)}
           className="min-h-20 w-full resize-y border border-bone/12 bg-transparent p-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="vimeo links, moodboards, songs, decks, or references"
+          placeholder="songs, scripts, decks, moodboards, vimeo links, youtube links, or references"
         />
       </label>
 
@@ -229,7 +237,7 @@ export function ProjectInquiryForm() {
           value={form.notes}
           onChange={(event) => updateField("notes", event.target.value)}
           className="min-h-28 w-full resize-y border border-bone/12 bg-transparent p-2 text-[13px] normal-case leading-5 text-bone outline-none transition-colors placeholder:text-bone/26 focus:border-bone/60"
-          placeholder="tell me the goal, vibe, deadline pressure, must-haves, and anything already locked."
+          placeholder="tell me the goal, vibe, deadline pressure, must-haves, what is already locked, and what needs help."
           required
         />
       </label>

@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { ProjectInquiryForm } from "@/components/ProjectInquiryForm";
-import { profileMedia } from "@/lib/projects";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -19,7 +17,7 @@ export default function BookPage() {
     <main className="min-h-screen bg-ink text-bone">
       <Navigation />
 
-      <section className="mx-auto grid max-w-[1600px] gap-x-4 gap-y-6 px-4 pb-16 pt-28 sm:px-6 md:grid-cols-[0.32fr_0.42fr_1fr] lg:px-8">
+      <section className="mx-auto grid max-w-[1600px] gap-x-4 gap-y-8 px-4 pb-16 pt-28 sm:px-6 md:grid-cols-[0.32fr_1fr] lg:px-8">
         <div className="text-[11px] lowercase leading-4 text-bone/54">
           <p>book</p>
           <Link href="/" className="transition-colors hover:text-bone">
@@ -27,20 +25,17 @@ export default function BookPage() {
           </Link>
         </div>
 
-        <div className="relative aspect-[4/5] min-h-0 overflow-hidden bg-bone/[0.03]">
-            <Image
-              src={profileMedia.portrait}
-              alt="Nathan Velasquez seated with camera equipment."
-              fill
-            sizes="(min-width: 768px) 28vw, 100vw"
-            className="object-cover object-[50%_14%]"
-            />
-        </div>
-
-        <div className="grid min-w-0 gap-5">
-          <div className="max-w-2xl text-[13px] leading-5 text-bone/68">
-            <p>send the basics and nathan will follow up with availability, next steps, and the cleanest path forward.</p>
-            <p className="mt-2 text-bone/46">email or phone works. the inquiry still goes directly to nathan.</p>
+        <div className="grid min-w-0 gap-10">
+          <div className="grid gap-5 md:grid-cols-[0.62fr_0.38fr]">
+            <h1 className="max-w-4xl text-[clamp(42px,8vw,118px)] font-medium lowercase leading-[0.9] tracking-normal text-bone">
+              book a project.
+            </h1>
+            <div className="grid content-end gap-3 text-[13px] leading-5 text-bone/62">
+              <p>
+                Tell me what you are making, how fast it needs to move, and what level of world you want around it.
+              </p>
+              <p className="text-bone/44">Email or phone works. The inquiry goes directly to Nathan.</p>
+            </div>
           </div>
           <ProjectInquiryForm />
         </div>

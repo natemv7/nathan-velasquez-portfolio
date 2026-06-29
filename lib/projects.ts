@@ -140,7 +140,7 @@ export const projects: Project[] = [
       { label: "Produced By", value: "World's End" },
     ],
     featured: true,
-    priority: 4,
+    priority: 3,
     sourceUrl: `${sourceBase}/ammxnike/`,
     finalVideoUrl: "https://vimeo.com/1198760213?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198760213"),
@@ -185,14 +185,14 @@ export const projects: Project[] = [
     title: "Can't Change",
     client: "Lil Tjay",
     year: "2026",
-    role: "AI Artist, VFX Artist",
+    role: "VFX Artist",
     type: "Music Video",
     summary:
-      "Can't Change expands the scale of the original footage through AI generated environments and visual effects. My role focused on building believable animals, aerial elements, and larger cinematic moments while keeping the effects connected to the lighting, movement, and tone of the live action footage.",
+      "Can't Change expands the scale of the original footage through environments and visual effects. My role focused on building believable animals, aerial elements, and larger cinematic moments while keeping the effects connected to the lighting, movement, and tone of the live action footage.",
     brief:
       "Expand the live action footage into larger cinematic moments without breaking the lighting, movement, or tone.",
     build:
-      "AI generated animals, aerial elements, and environment extensions were built to feel connected to the captured footage.",
+      "Generated animals, aerial elements, and environment extensions were built to feel connected to the captured footage.",
     result:
       "The finished music video gains a bigger visual scale while keeping the VFX tied to the live action world.",
     credits: [
@@ -264,7 +264,7 @@ export const projects: Project[] = [
       "A tight music video edit built around energy, clarity, and replay value.",
     credits: [{ label: "Editor", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 3,
+    priority: 5,
     finalVideoUrl: "https://www.youtube.com/watch?v=PDQM23AiARM",
     previewVideo: "/media/projects/lil-baby-fu2x/preview.mp4",
     posterStatus: "FU2X preview",
@@ -287,7 +287,7 @@ export const projects: Project[] = [
       "A polished edit connecting music, sports, and campaign energy with a strong visual pace.",
     credits: [{ label: "Editor", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 5,
+    priority: 4,
     finalVideoUrl: "https://www.youtube.com/watch?v=LjYgsSzCGZQ",
     previewVideo: "/media/projects/lil-baby-nfl-touchdown/preview.mp4",
     posterStatus: "Touchdown preview",
@@ -380,7 +380,7 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor, VFX Artist",
     type: "Music Video",
     summary:
-      "A surreal performance video filmed inside the abandoned Holy Land USA property. The location already carried a strange, almost apocalyptic feeling, so the visual pushed that world further with AI enhanced fire, animals, and environmental effects.",
+      "A surreal performance video filmed inside the abandoned Holy Land USA property. The location already carried a strange, almost apocalyptic feeling, so the visual pushed that world further with fire, animals, and environmental effects.",
     brief:
       "Use an already strange location as the base for a world that feels unstable, cinematic, and bigger than what was captured in camera.",
     build:
@@ -392,7 +392,7 @@ export const projects: Project[] = [
       { label: "VFX Artist", value: "Nathan Velasquez" },
     ],
     featured: true,
-    priority: 9,
+    priority: 10,
     sourceUrl: `${sourceBase}/kaesavokay/`,
     finalVideoUrl: "https://vimeo.com/1198813761?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198813761"),
@@ -592,7 +592,7 @@ export const projects: Project[] = [
       "A clean, elegant recap that carries the movement of the day without becoming a generic event video.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 10,
+    priority: 7,
     sourceUrl: `${sourceBase}/nybfw/`,
     finalVideoUrl: "https://vimeo.com/1198804611?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198804611"),
@@ -676,11 +676,11 @@ export const projects: Project[] = [
   },
   {
     slug: "targeted",
-    title: "Commercial",
+    title: "Campaign Film",
     client: "Targeted",
     year: "2026",
     role: "Director, Cinematographer, Editor",
-    type: "Commercial / Spec",
+    type: "Commercial Campaign",
     summary:
       "A commercial piece directed, shot, and edited by Nathan Velasquez.",
     brief:
@@ -691,7 +691,7 @@ export const projects: Project[] = [
       "A sharp commercial visual built to give the brand a larger, more cinematic presence.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
     featured: true,
-    priority: 7,
+    priority: 9,
     finalVideoUrl: "https://vimeo.com/1205297300",
     videoEmbedUrl: vimeoEmbed("1205297300"),
     previewVideo: "/media/projects/targeted/preview.mp4",
@@ -821,11 +821,11 @@ export const projects: Project[] = [
     role: "Director, Cinematographer, Editor",
     type: "Music Video",
     summary:
-      "A gritty performance driven visual built around isolation, pressure, and explosive energy. Shot across stark outdoor locations with aggressive handheld movement, distorted perspectives, and AI enhanced fire effects to push the world beyond reality.",
+      "A gritty performance driven visual built around isolation, pressure, and explosive energy. Shot across stark outdoor locations with aggressive handheld movement, distorted perspectives, and fire effects to push the world beyond reality.",
     brief:
       "Build a performance visual around isolation, pressure, and explosive energy.",
     build:
-      "Stark outdoor locations, aggressive handheld movement, distorted perspectives, and AI enhanced fire effects push the world beyond reality.",
+      "Stark outdoor locations, aggressive handheld movement, distorted perspectives, and fire effects push the world beyond reality.",
     result:
       "A direct, explosive music video that turns minimal locations into a harsher, more unstable visual world.",
     credits: [{ label: "Directed, Shot, Edited", value: "Nathan Velasquez" }],
@@ -853,7 +853,7 @@ export const projects: Project[] = [
       },
       {
         src: "/media/projects/kadin-johnny-gat/hk-vfx-world.jpg",
-        alt: "AI enhanced blue environment frame from Johnny Gat.",
+        alt: "Blue environment effects frame from Johnny Gat.",
         orientation: "wide",
       },
     ],
