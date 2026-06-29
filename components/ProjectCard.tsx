@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import type { Project } from "@/lib/projects";
 import { FilmFrame } from "@/components/FilmFrame";
 import { VideoEmbed } from "@/components/VideoEmbed";
@@ -23,7 +22,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ duration: 0.55, delay: Math.min(index * 0.04, 0.24) }}
       className="grid min-w-0 scroll-mt-24 gap-2"
     >
-      {project.previewGif && project.finalVideoUrl ? (
+      {project.previewVideo && project.finalVideoUrl ? (
         <a
           href={project.finalVideoUrl}
           target="_blank"
@@ -31,13 +30,29 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           aria-label={`Watch ${title}`}
           className="group relative block aspect-video overflow-hidden bg-bone/[0.04]"
         >
-          <Image
+          <video
+            src={project.previewVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.015]"
+          />
+        </a>
+      ) : project.previewGif && project.finalVideoUrl ? (
+        <a
+          href={project.finalVideoUrl}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`Watch ${title}`}
+          className="group relative block aspect-video overflow-hidden bg-bone/[0.04]"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={project.previewGif}
             alt=""
-            fill
-            unoptimized
-            sizes="(min-width: 1280px) 270px, (min-width: 1024px) 30vw, (min-width: 640px) 48vw, 100vw"
-            className="object-cover transition duration-500 group-hover:scale-[1.015]"
+            className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.015]"
           />
         </a>
       ) : project.videoEmbedUrl && project.finalVideoUrl ? (

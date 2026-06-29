@@ -46,6 +46,7 @@ export type Project = {
   sourceUrl?: string;
   finalVideoUrl?: string;
   videoEmbedUrl?: string;
+  previewVideo?: string;
   previewGif?: string;
   additionalVideos?: ProjectVideo[];
   posterImage?: ProjectImage;
@@ -88,7 +89,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/nikespec/`,
     finalVideoUrl: "https://vimeo.com/1198629176?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198629176"),
-    previewGif: "/media/projects/nike-run-for-it/preview.gif",
+    previewVideo: "/media/projects/nike-run-for-it/preview.mp4",
     posterImage: {
       src: "/media/projects/nike-run-for-it/yellow-shoes-run.jpg",
       alt: "Runner in yellow Nike shoes moving through Springfield.",
@@ -143,7 +144,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/ammxnike/`,
     finalVideoUrl: "https://vimeo.com/1198760213?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198760213"),
-    previewGif: "/media/projects/timing-is-everything/preview.gif",
+    previewVideo: "/media/projects/timing-is-everything/preview.mp4",
     posterImage: {
       src: "/media/projects/timing-is-everything/blue-runner-portrait.jpg",
       alt: "Blue-toned portrait frame from Timing Is Everything.",
@@ -210,7 +211,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/liltjaycantchange/`,
     finalVideoUrl: "https://vimeo.com/1198766682?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198766682"),
-    previewGif: "/media/projects/lil-tjay-cant-change/preview.gif",
+    previewVideo: "/media/projects/lil-tjay-cant-change/preview.mp4",
     posterImage: {
       src: "/media/projects/lil-tjay-cant-change/lion-performance.jpg",
       alt: "Lil Tjay performance frame with a white lion in Can't Change.",
@@ -265,7 +266,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 6,
     finalVideoUrl: "https://www.youtube.com/watch?v=PDQM23AiARM",
-    previewGif: "/media/projects/lil-baby-fu2x/preview.gif",
+    previewVideo: "/media/projects/lil-baby-fu2x/preview.mp4",
     posterStatus: "FU2X preview",
     palette: { a: "#e64a2e", b: "#f4efe7", c: "#0b0b0b" },
   },
@@ -288,7 +289,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 3,
     finalVideoUrl: "https://www.youtube.com/watch?v=LjYgsSzCGZQ",
-    previewGif: "/media/projects/lil-baby-nfl-touchdown/preview.gif",
+    previewVideo: "/media/projects/lil-baby-nfl-touchdown/preview.mp4",
     posterStatus: "Touchdown preview",
     palette: { a: "#77b7ff", b: "#e64a2e", c: "#0b0b0b" },
   },
@@ -318,7 +319,7 @@ export const projects: Project[] = [
     sourceUrl: "https://www.instagram.com/color____block/",
     finalVideoUrl: "https://vimeo.com/1198797697?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198797697"),
-    previewGif: "/media/projects/grounded/preview.gif",
+    previewVideo: "/media/projects/grounded/preview.mp4",
     additionalVideos: [
       {
         title: "Grounded - Campaign Film 02",
@@ -395,7 +396,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/kaesavokay/`,
     finalVideoUrl: "https://vimeo.com/1198813761?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198813761"),
-    previewGif: "/media/projects/kaesav-okay/preview.gif",
+    previewVideo: "/media/projects/kaesav-okay/preview.mp4",
     posterImage: {
       src: "/media/projects/kaesav-okay/wide-crosses-performance.jpg",
       alt: "Wide performance frame at Holy Land USA for Kaesav Okay.",
@@ -447,7 +448,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/kaesavlongday/`,
     finalVideoUrl: "https://vimeo.com/1198819047?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198819047"),
-    previewGif: "/media/projects/kaesav-long-day/preview.gif",
+    previewVideo: "/media/projects/kaesav-long-day/preview.mp4",
     posterImage: {
       src: "/media/projects/kaesav-long-day/winter-wide-performance.jpg",
       alt: "Wide snowstorm performance frame from Kaesav Long Day.",
@@ -507,7 +508,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 16,
     finalVideoUrl: "https://www.youtube.com/watch?v=lxpJY7yx3Rs",
-    previewGif: "/media/projects/kaesav-new-day/preview.gif",
+    previewVideo: "/media/projects/kaesav-new-day/preview.mp4",
     posterStatus: "New Day preview",
     palette: { a: "#77b7ff", b: "#325f4a", c: "#111111" },
   },
@@ -538,7 +539,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/wfiki/`,
     finalVideoUrl: "https://vimeo.com/1198769255?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198769255"),
-    previewGif: "/media/projects/who-feels-it-knows-it/preview.gif",
+    previewVideo: "/media/projects/who-feels-it-knows-it/preview.mp4",
     posterImage: {
       src: "/media/projects/who-feels-it-knows-it/bar-portrait.jpg",
       alt: "Smiling portrait inside a Jamaican bar from Who Feels It Knows It.",
@@ -595,7 +596,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/nybfw/`,
     finalVideoUrl: "https://vimeo.com/1198804611?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198804611"),
-    previewGif: "/media/projects/justin-haynes-nybfw/preview.gif",
+    previewVideo: "/media/projects/justin-haynes-nybfw/preview.mp4",
     posterImage: {
       src: "/media/projects/justin-haynes-nybfw/red-veil-portrait.jpg",
       alt: "Red bridal fashion portrait from Justin Haynes New York Bridal Fashion Week.",
@@ -652,7 +653,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/maajinstrolly/`,
     finalVideoUrl: "https://vimeo.com/1198814112?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198814112"),
-    previewGif: "/media/projects/maajins-trolly-boy/preview.gif",
+    previewVideo: "/media/projects/maajins-trolly-boy/preview.mp4",
     posterImage: {
       src: "/media/projects/maajins-trolly-boy/hands-title-wide.jpg",
       alt: "Wide performance title frame from Maajins Trolly Boy.",
@@ -693,7 +694,7 @@ export const projects: Project[] = [
     priority: 10,
     finalVideoUrl: "https://vimeo.com/1205297300",
     videoEmbedUrl: vimeoEmbed("1205297300"),
-    previewGif: "/media/projects/targeted/preview.gif",
+    previewVideo: "/media/projects/targeted/preview.mp4",
     posterStatus: "Targeted preview",
     palette: { a: "#f4efe7", b: "#e64a2e", c: "#0b0b0b" },
   },
@@ -716,7 +717,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 14,
     finalVideoUrl: "https://www.youtube.com/watch?v=x7LfxXewwYY",
-    previewGif: "/media/projects/xhulooo-get-near/preview.gif",
+    previewVideo: "/media/projects/xhulooo-get-near/preview.mp4",
     posterStatus: "Get Near preview",
     palette: { a: "#77b7ff", b: "#f4efe7", c: "#0b0b0b" },
   },
@@ -739,7 +740,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 11,
     finalVideoUrl: "https://www.youtube.com/watch?v=zmgZSFheb8w",
-    previewGif: "/media/projects/osamason-jumpout-show-recap/preview.gif",
+    previewVideo: "/media/projects/osamason-jumpout-show-recap/preview.mp4",
     posterStatus: "Jumpout Show Recap preview",
     palette: { a: "#e64a2e", b: "#77b7ff", c: "#0b0b0b" },
   },
@@ -762,7 +763,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 17,
     finalVideoUrl: "https://www.youtube.com/watch?v=zjvGL2Mry_w",
-    previewGif: "/media/projects/temberik-cream/preview.gif",
+    previewVideo: "/media/projects/temberik-cream/preview.mp4",
     posterStatus: "C.R.E.A.M preview",
     palette: { a: "#e64a2e", b: "#f4efe7", c: "#0b0b0b" },
   },
@@ -785,7 +786,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 15,
     finalVideoUrl: "https://www.youtube.com/watch?v=m6g9Ov2iH2M",
-    previewGif: "/media/projects/2hollis-show-recap/preview.gif",
+    previewVideo: "/media/projects/2hollis-show-recap/preview.mp4",
     posterStatus: "2hollis Show Recap preview",
     palette: { a: "#77b7ff", b: "#f4efe7", c: "#0b0b0b" },
   },
@@ -808,7 +809,7 @@ export const projects: Project[] = [
     featured: true,
     priority: 13,
     finalVideoUrl: "https://www.youtube.com/watch?v=CUTKDyjF3aw",
-    previewGif: "/media/projects/ken-carson-show-recap/preview.gif",
+    previewVideo: "/media/projects/ken-carson-show-recap/preview.mp4",
     posterStatus: "Ken Carson Show Recap preview",
     palette: { a: "#f4efe7", b: "#77b7ff", c: "#0b0b0b" },
   },
@@ -833,6 +834,7 @@ export const projects: Project[] = [
     sourceUrl: `${sourceBase}/kadinjohnnygat/`,
     finalVideoUrl: "https://vimeo.com/1198794919?fl=pl&fe=ti",
     videoEmbedUrl: vimeoEmbed("1198794919"),
+    previewVideo: "/media/projects/kadin-johnny-gat/preview.mp4",
     posterImage: {
       src: "/media/projects/kadin-johnny-gat/distorted-performance.jpg",
       alt: "Distorted handheld performance frame from Kadin's Johnny Gat.",
