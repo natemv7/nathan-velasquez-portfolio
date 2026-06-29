@@ -5,7 +5,7 @@ const links = [
   { label: "Reel", href: "/#reel" },
   { label: "About", href: "/about" },
   { label: "Book", href: "/book" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function Navigation() {
